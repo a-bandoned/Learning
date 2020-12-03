@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>第二天</title>
+	</head>
+	<body>
+		<div>
+			<p>p是段落标签，会换行表示一个段落</p>
+			<span style="color: brown; background-color: bisque; font-size: larger;">span为文本设置独立样式，无特征</span>
+			<div align="center">
+				<img src="../img/2.jpeg" width="120" height="160" align="middle" />div是划出一个区块，无特征
+			</div>
+		</div>
+		<div>
+			<ol type="I" reversed="reversed">
+				<li>
+					ol，li是有序列表标签，ol的子元素必须是li
+					<p>
+						不可以在ol标签下添加子元素，只能在子元素li中添加标签
+					</p>
+				</li>
+				<li>
+					独占一行或者多行
+				</li>
+				<li>
+					默认为数字升序排序
+				</li>
+				<li>
+					reversed属性为将列表降序排列
+				</li>
+			</ol>
+		</div>
+		<table width="100%" border="1" cellpadding="50" cellspacing="1" bgcolor="crimson">
+			<th align="middle" width="100%" colspan="4">table标签</th>
+			<tr align="middle" height="30">
+				<td width="20%">th是表头</td>
+				<td width="20%">tr是行</td>
+				<td width="20%">td是列</td>
+				<td width="40%">此表格为一行四列表格</td>
+			</tr>
+		</table>
+		<!--colspan是合并列，rowspan是合并行，cellpadding是一行的填充距离，cellspacing是行距-->
+		<div>
+			 跳转到：<select onchange="window.location=this.value;">
+				 <option value ="#">请选择</option>
+				 <option value ="index.html">第一天</option>
+				 <option value ="#">第二天</option>
+			 </select>
+			 
+		</div>
+	</body>
+</html>
