@@ -1,0 +1,162 @@
+body {
+	background-image: url(../img/1.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#xianshi {
+	width: 80%;
+	opacity: 0.8;
+	background-color: lightgray;
+	position: absolute;
+	left: 10%;
+	right: 10%;
+}
+.navigation—bar {
+	background-image: url(../img/4.jpg);
+	width: 100%;
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.logo {
+	float: left;
+	opacity: 0.6;
+	padding-left: 50px;
+
+}
+
+h1 {
+	float: left;
+	font-size: 50px;
+	
+	text-align: center;
+	
+	color: yellow;
+	padding-left: 30px;
+}
+.daohang {
+	clear: left;
+	width: 100%;
+	text-align: right;
+	
+	font-size: 23px;
+}
+.daohang>a {
+	padding-left: 20px;
+	text-decoration: none;
+	color: crimson;
+}
+.daohang :last-child {
+	padding-right: 50px;
+}
+.daohang>a:hover {
+	color: lawngreen;
+	font-size: 150%;
+    
+}
+.daohang>a:active {
+	color: gray;
+}
+.gaikuang {
+	float: right;
+	margin: 1.25rem;
+	padding: 0rem;
+	border: 0rem;
+	width: 31.25rem;
+	height: 28.125rem;
+}
+.slideshow {
+	position: relative;
+	margin: 1.875rem;
+	padding: 0rem;
+	border: 0rem;
+	width: 600px;
+	height: 450px;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+}
+.slideshow>ul {	
+	padding: 0rem;
+	margin: 0rem;
+	border: 0rem;
+	width: 112.5rem;
+	height: 21.875rem;
+	line-height: 21.875rem;
+	transition: all 0.5s;
+}
+.slideshow>ul>li {
+	float: left;
+    width: 600px ;
+	height: 21.875rem;
+	list-style: none;
+	line-height: 350px;
+}
+
+.slideshow>ul>li>img {
+	width: 600px;
+	height: 350px;
+
+}
+.lunbotu {
+	display: none;
+}
+
+.slideshow label[for^="lunbotu"] {
+	position: absolute;
+	  top: 360px;
+	  width: 20px;
+	  height: 20px;
+	  margin: 0 250px;
+	  line-height: 20px;
+	  color: #FFF;
+	  background: green;
+	  cursor: pointer;
+	  border-radius: 50%;
+	}
+.slideshow label[for="lunbotu1"] {
+  left: 0;
+}
+
+.slideshow label[for="lunbotu2"] {
+  left: 30px;
+}
+
+.slideshow label[for="lunbotu3"] {
+  left: 60px;
+}
+#lunbotu1:checked~ul {
+	margin-left: 0;
+}
+#lunbotu2:checked~ul {
+	margin-left: -600px;
+}
+#lunbotu3:checked~ul {
+	margin-left: -1200px;
+}
+#lunbotu1:checked~label[for="lunbotu1"] {
+    color: #000;
+    background: #fff;
+}
+
+#lunbotu2:checked~label[for="lunbotu2"] {
+    color: #000;
+    background: #fff;
+}
+
+#lunbotu3:checked~label[for="lunbotu3"] {
+    color: #000;
+    background: #fff;
+}
+.gaikuang>h2 {
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 1.4375rem;
+}
+.gaikuang>p {
+	text-indent: 2rem;
+}
